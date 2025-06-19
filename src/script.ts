@@ -92,31 +92,21 @@
 //   }
 // }
 
-/// class duita ekoi kaj korbe .. 
-/// access modifier explicitly bola thakle shortcut vabe lekha  jai nicher moto kore 
+/// class duita ekoi kaj korbe ..
+/// access modifier explicitly bola thakle shortcut vabe lekha  jai nicher moto kore
 
-// class Player {
-//   constructor(
-//     public name: string,
-//     private age: number,
-//     readonly country: string
-//   ) {}
+import { Player } from "./classes/Player.js";
 
-//   play() {
-//     console.log(`${this.name} from ${this.country} is payling`);
-//   }
-// }
+const Mashrafi = new Player("Mashrafi", 40, "BD");
+const Shakib = new Player("shakib", 35, "BD");
 
-// const Mashrafi = new Player("Mashrafi", 40, "BD");
-// const Shakib = new Player("shakib", 35, "BD");
+// Mashrafi.play();
+// Shakib.play();
 
-// // Mashrafi.play();
-// // Shakib.play();
-// Shakib.country = "France ";
 
-// const players: Player[] = [];
+const players: Player[] = [];
 
-// players.push(Mashrafi);
-// console.log(players);
+players.push(Mashrafi);
+console.log(players);
 
-/// Access modifiers
+//Access modifiers

@@ -1,4 +1,3 @@
-"use strict";
 // normal variable
 // let b: string | number;
 /// array
@@ -69,24 +68,14 @@
 //     console.log(`${this.name} from ${this.country} is payling`);
 //   }
 // }
-/// class duita ekoi kaj korbe .. 
-/// access modifier explicitly bola thakle shortcut vabe lekha  jai nicher moto kore 
-// class Player {
-//   constructor(
-//     public name: string,
-//     private age: number,
-//     readonly country: string
-//   ) {}
-//   play() {
-//     console.log(`${this.name} from ${this.country} is payling`);
-//   }
-// }
-// const Mashrafi = new Player("Mashrafi", 40, "BD");
-// const Shakib = new Player("shakib", 35, "BD");
-// // Mashrafi.play();
-// // Shakib.play();
-// Shakib.country = "France ";
-// const players: Player[] = [];
-// players.push(Mashrafi);
-// console.log(players);
-/// Access modifiers
+/// class duita ekoi kaj korbe ..
+/// access modifier explicitly bola thakle shortcut vabe lekha  jai nicher moto kore
+import { Player } from "./classes/Player.js";
+const Mashrafi = new Player("Mashrafi", 40, "BD");
+const Shakib = new Player("shakib", 35, "BD");
+// Mashrafi.play();
+// Shakib.play();
+const players = [];
+players.push(Mashrafi);
+console.log(players);
+//Access modifiers
